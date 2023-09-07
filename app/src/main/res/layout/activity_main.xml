@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="70"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:scrollbars="vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="1dp"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:height="48dp"
+            android:backgroundTint="@color/teal_700"
+            android:drawableBottom="@drawable/icon_add"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:height="48dp"
+            android:backgroundTint="@color/teal_900"
+            android:drawableBottom="@drawable/icon_change_item"
+            android:textAllCaps="false" />
+
+        <Button
+            android:id="@+id/btnUp"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:height="48dp"
+            android:backgroundTint="@color/teal_950"
+            android:drawableBottom="@drawable/ic_m_up" />
+
+        <Button
+            android:id="@+id/btnDown"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:height="48dp"
+            android:backgroundTint="@color/teal_950"
+            android:drawableBottom="@drawable/ic_m_down" />
+
+        <Button
+            android:id="@+id/btnDeleteAll"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:height="48dp"
+            android:backgroundTint="@color/teal_950"
+            android:drawableBottom="@drawable/icon_delete" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="5"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:layout_weight="90"
+            android:hint="Text eingeben"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColorHint="#757575" />
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:height="40dp"
+            android:backgroundTint="@color/white"
+            android:drawableBottom="@drawable/ic_cancel" />
+
+    </LinearLayout>
+</LinearLayout>
+
+
+
+

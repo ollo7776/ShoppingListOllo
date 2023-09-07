@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ToDoListOllo</string>
+    <string name="xString">x</string>
+    <string name="mString">-</string>
+    <string name="fill_required_field">Bitte füllen Sie das erforderliche Feld aus!</string>
+    <string name="data_not_saved">Die Daten wurden nicht gespeichert!</string>
+    <string name="no_change_made">Es wurde keine Änderung vorgenommen!</string>
+    <string name="update_failed">Update fehlgeschlagen!</string>
+    <string name="delete_this_item">Möchten Sie dieses Element wirklich löschen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="crossed_out_delete">Möchten Sie alle durchgestrichenen Elemente löschen?</string>
+    <string name="no_data_on_title">Das Titelfeld enthält keine Daten</string>
+    <string name="no_records_to_move">Klicken Sie auf zwei Records, um sie zu verschieben</string>
+    <string name="add_empty_title">Einen leeren Datensatz hinzufügen?</string>
+</resources>

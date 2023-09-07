@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ToDoListOllo</string>
+    <string name="xString">x</string>
+    <string name="mString">-</string>
+    <string name="fill_required_field">Please fill out the required field!</string>
+    <string name="data_not_saved">The data was not saved!</string>
+    <string name="no_change_made">No change was made!</string>
+    <string name="update_failed">Update failed!</string>
+    <string name="delete_this_item">Do you really want to delete this item?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="crossed_out_delete">Do you want to delete all crossed out items?</string>
+    <string name="no_data_on_title">There is no data on title field</string>
+    <string name="no_records_to_move">Click two records to move</string>
+    <string name="add_empty_title">Add an empty record?</string>
+</resources>

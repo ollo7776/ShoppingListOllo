@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/recordItem"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:background="@color/grey_light"
+    android:orientation="horizontal"
+    android:padding="0dp">
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvId"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:textColor="@color/grey_light"-->
+<!--        tools:text="Id" />-->
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvMarked"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:paddingBottom="10dp"-->
+<!--        android:layout_weight="70"-->
+<!--        android:textSize="16sp"-->
+<!--        tools:text="Title"-->
+<!--        android:scrollbarTrackHorizontal="@color/white"-->
+<!--        />-->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:paddingBottom="10dp"
+        android:layout_weight="70"
+        android:textSize="16sp"
+        tools:text="Title"
+        android:scrollbarTrackHorizontal="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btnStrike"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="2dp"
+        android:height="48dp"
+        android:backgroundTint="@color/grey_light"
+        android:drawableBottom="@drawable/icon_strike"
+        android:gravity="end"
+        android:maxWidth="48dp" />
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="48dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_marginRight="1dp"
+        android:height="48dp"
+        android:backgroundTint="@color/grey_light"
+        android:drawableBottom="@drawable/icon_cancel"
+        android:maxWidth="48dp" />
+
+</LinearLayout>
